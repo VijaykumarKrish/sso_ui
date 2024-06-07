@@ -1,0 +1,10 @@
+{
+    "/api": {
+        "target": "http://app1.localtest.me:9005",
+        "secure": false,
+        "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+}
